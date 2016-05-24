@@ -1,0 +1,39 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>edu.ubb.cs.idde</groupId>
+	<artifactId>lab2-ttim1382_server</artifactId>
+	<version>0.0.1</version>
+	
+	<parent>
+		<groupId>edu.ubb.cs.idde</groupId>
+		<artifactId>lab2-ttim1382_parent</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.20</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>log4j-over-slf4j</artifactId>
+			<version>1.7.20</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.38</version>
+		</dependency>
+	</dependencies>
+</project>

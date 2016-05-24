@@ -1,0 +1,13 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>edu.ubb.cs.idde</groupId>
+	<artifactId>lab1-ttim1382_parent</artifactId>
+	<version>1.0</version>
+	
+	<packaging>pom</packaging>
+	<modules>
+		<module>client</module>
+		<module>server</module>
+	</modules>
+</project>

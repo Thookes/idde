@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>edu.ubb.cs.idde</groupId>
+	<artifactId>lab4-ttim1382_parent</artifactId>
+	<version>0.0.1</version>
+	
+	<packaging>pom</packaging>
+	<modules>
+		<module>lab4-ttim1382_interface</module>
+		<module>lab4-ttim1382_server</module>	
+		<module>lab4-ttim1382_client</module>
+	</modules>
+	
+	<organization>
+		<name>Babes-Bolyai University</name>
+		<url>www.cs.ubbcluj.ro</url>
+	</organization>
+	
+	<developers>
+		<developer>
+			<name>Tőkés Tibor</name>
+			<email>ttim1382@scs.ubbcluj.ro</email>
+			<organization>Babes-Bolyai University</organization>
+			<organizationUrl>http://cs.ubbcluj.ro</organizationUrl>
+		</developer>
+	</developers>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-snapshot</id>
+			<url>http://pdae.cs.ubbcluj.ro/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>nexus-release</id>
+			<url>http://pdae.cs.ubbcluj.ro/nexus/content/repositories/releases</url>
+		</repository>
+	</distributionManagement>
+</project>
